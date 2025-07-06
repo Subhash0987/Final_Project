@@ -1,0 +1,25 @@
+body {
+  font-family: Arial;
+  margin: 20px;
+  background-image: url('back.jpg'); /* Update the path as needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.pg-box {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  max-width: 500px;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .pg-box {
+    width: 100%;
+  }
+}
